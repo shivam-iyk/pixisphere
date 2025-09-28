@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Project Title
 
-First, run the development server:
+Pixisphere is a full-stack AI-powered photography service marketplace that connects
+clients with verified photographers and studios across India. It's engineered to handle
+end-to-end workflows: from discovery and shortlisting, through intelligent lead distribution,
+to post-booking lifecycle management.
+
+#### The platform supports:
+- Dynamic service discovery based on categories and geo-location
+- Client inquiries with smart suggestions and reference image uploads
+- Vendor dashboards with lead, booking, and portfolio tools
+- Admin backend with moderation, verification, and CMS control
+
+Pixisphere is not a typical marketplace. It operates with complex, role-based user flows,
+multi-model data structures, AI-aided matching, and moderated interactions — all while
+being scale-ready for high-traffic content management and real-time services.
+
+
+## Environment Variables
+
+To run this project, you will need to add following environment variables to your .env file
+
+`NEXT_PUBLIC_API_URL` - Json-server URL (default: http://localhost:3001)
+
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/sethshivam11/pixisphere
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd pixisphere
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Install dependencies & build
 
-## Learn More
+```bash
+  npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Open another terminal to run the server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run json-server
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Start the server
 
-## Deploy on Vercel
+```bash
+  npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack
+
+Next.js, Zustand, TailwindCSS, ShadCN/UI, Axios
+
