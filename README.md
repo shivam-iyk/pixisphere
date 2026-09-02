@@ -29,7 +29,7 @@ To run this project, you will need to add following environment variables to you
 Clone the project
 
 ```bash
-  git clone https://github.com/sethshivam11/pixisphere
+  git clone https://github.com/shivam-iyk/pixisphere
 ```
 
 Go to the project directory
